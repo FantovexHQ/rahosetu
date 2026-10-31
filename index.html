@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Discover local places to stay and everyday food services with RAHOSETU.">
+  <meta name="theme-color" content="#16834a">
+  <title>RAHOSETU — Find your place. Find your food.</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="RAHOSETU home"><span class="brand-mark">R</span> RAHOSETU</a>
+    <nav aria-label="Main navigation">
+      <a href="#accommodation">Accommodation</a>
+      <a href="#food">Food</a>
+      <a href="#list-business">List your business</a>
+    </nav>
+    <a class="header-cta" href="#search">Explore <span aria-hidden="true">→</span></a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow"><span class="eyebrow-dot"></span> LOCAL DISCOVERY · DEOGHAR</div>
+      <h1>Find your place.<br><span>Find your food.</span></h1>
+      <p class="hero-copy">Discover places to stay and everyday food services around Deoghar — all in one simple place.</p>
+      <form class="search-panel" id="search">
+        <label class="search-field">
+          <span>I'm looking for</span>
+          <select id="category">
+            <option value="all">Everything</option>
+            <option value="accommodation">PG, hostel or room</option>
+            <option value="food">Tiffin or mess</option>
+          </select>
+        </label>
+        <label class="search-field">
+          <span>Area or keyword</span>
+          <input id="keyword" type="search" placeholder="e.g. Bilasi, tiffin, boys PG">
+        </label>
+        <button class="button button-primary" type="submit">Search <span aria-hidden="true">→</span></button>
+      </form>
+      <p class="search-note">No account required. Contact businesses directly.</p>
+    </section>
+
+    <section class="section" id="accommodation">
+      <div class="section-heading">
+        <div><div class="eyebrow">EXPLORE BY NEED</div><h2>What are you looking for?</h2></div>
+        <p>Useful local information, without the unnecessary steps.</p>
+      </div>
+      <div class="category-grid">
+        <a class="category-card" href="accommodation.html?type=pg"><span class="category-icon">⌂</span><span><strong>PG & hostels</strong><small>Find a place to stay</small></span><b>↗</b></a>
+        <a class="category-card" href="accommodation.html?type=room"><span class="category-icon">▦</span><span><strong>Rooms</strong><small>Explore rental options</small></span><b>↗</b></a>
+        <a class="category-card" href="food.html"><span class="category-icon">♨</span><span><strong>Tiffin services</strong><small>Everyday meals nearby</small></span><b>↗</b></a>
+        <a class="category-card" href="food.html?type=mess"><span class="category-icon">✳</span><span><strong>Mess & meal plans</strong><small>Find regular food options</small></span><b>↗</b></a>
+      </div>
+    </section>
+
+    <section class="trust-strip" id="food">
+      <div><span class="trust-number">01</span><strong>Local information</strong><small>Focused on Deoghar first</small></div>
+      <div><span class="trust-number">02</span><strong>Direct contact</strong><small>Talk to the provider</small></div>
+      <div><span class="trust-number">03</span><strong>Clear details</strong><small>Check prices and availability</small></div>
+    </section>
+
+    <section class="list-business" id="list-business">
+      <div><div class="eyebrow">FOR LOCAL BUSINESSES</div><h2>Help more people<br>discover your business.</h2><p>Submit your business for a free basic listing on RAHOSETU. Listings are reviewed before publication.</p></div>
+      <a class="button button-light" href="add-business.html">Add your business <span aria-hidden="true">→</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="/"><span class="brand-mark">R</span> RAHOSETU</a>
+    <span>Local discovery, made simpler.</span>
+    <div><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div>
+  </footer>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
